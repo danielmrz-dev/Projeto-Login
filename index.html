@@ -19,19 +19,21 @@
                 <form action="login.php" method="post">
 
                     <div class="form">
-                        <label for="iusuario"><span class="material-symbols-rounded" >person</span></label>
-                        <input type="text" name="usuario" id="iusuario" minlength="4" size="30" required>
+                        <label for="iusuario"><span class="material-symbols-rounded">person</span></label>
+                        <input type="email" name="usuario" id="iusuario" minlength="4" size="30" required placeholder="Digite seu email">
                         <br>
                     </div>
                     <div class="form">    
-                        <label for="isenha"><span class="material-symbols-rounded" >vpn_key</span></label>
-                        <input type="password" name="senha" id="isenha" minlength="4" size="30" required>
+                        <label for="isenha"><span class="material-symbols-rounded">vpn_key</span></label>
+                        <input type="password" name="senha" id="isenha" minlength="4" size="30" required placeholder="Digite sua senha">
                     </div>
                     
                     <br>
 
-                    <input type="submit" value="Entrar"> <br>
-                    <input type="button" value="Esqueci a senha">
+                    <div class="buttons">
+                        <input type="submit" value="Entrar" class="button1"> <br>
+                        <input type="button" value="Esqueci a senha 🔑" class="button2"> 
+                    </div>
                 </form>
             </div>
         </section>
