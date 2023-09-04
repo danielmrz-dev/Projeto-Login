@@ -26,6 +26,10 @@ body {
     justify-content: center; 
 }
 
+main {
+    max-width: 767px;
+}
+
 section#login {
     border: 1px solid grey;
     background-color: white;
@@ -60,7 +64,7 @@ div#formulario > p {
 
 div.form {
     background-color: var(--color02);
-    width: 275px;
+    width: 270px;
     height: 41px;
     border-radius: 8px;
     margin: 5px auto 0;
@@ -68,14 +72,14 @@ div.form {
 }
 
 input#iusuario, input#isenha {
-    width: 236px;
+    width: 232px;
     height: 38px;
     border-radius: 8px;
     padding-left: 8px;
     position: absolute;
 
     top: 1px;
-    left: 38px;
+    left: 36px;
 }
 
 span {
@@ -93,7 +97,7 @@ span {
 .button1, .button2 {
     font-size: 1em;
     color: var(--color03);
-    width: 275px;
+    width: 90%;
     margin: 0 0 6px 0;
     border-radius: 8px;
     padding: 8px;
@@ -159,7 +163,7 @@ span {
     }
 
     input#iusuario, input#isenha {
-        width: 275px;
+        width: 277px;
         height: 40px;
     }
 
@@ -189,10 +193,6 @@ span {
     }
 
     div#formulario {
-        padding-right: 90px;
-    }
-
-    div#formulario {
         padding: 20px 38px;
     }
 
@@ -208,7 +208,7 @@ span {
     }
 
     input#iusuario, input#isenha {
-        width: 380px;
+        width: 382px;
         height: 47px;
     }
 
@@ -219,8 +219,8 @@ span {
     .button1, .button2 {
         font-size: 1.4em;
         width: 419px;
-        height: 55px;
-        margin: 0 0 20px 0;
+        height: 57px;
+        margin: 0 0 12px 0;
     }
 
     span {
