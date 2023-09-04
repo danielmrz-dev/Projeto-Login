@@ -41,6 +41,8 @@ section#login {
     height: 480px;
     border-radius: 17px;
     box-shadow: 5px 5px 5px black;
+    transition: .3s ease;
+
 }
 
 div#imagem {
@@ -130,21 +132,55 @@ span {
 @media screen and (min-width: 768px) {
     section#login {
         display: flex;
-        width: 600px;
-        height: 320px;
+        width: 700px;
+        height: 400px;
+        transition: .3s ease;
     }
 
     div#imagem {
-        height: 319px;
-        width: 280px;
+        height: 399px;
+        width: 350px;
         background: url('imagens/guitar.jpg') center center no-repeat scroll;
         background-size: cover;
         border-radius: 15px 0 0 15px;
     }
 
     div#formulario {
-        padding-left: 23px;
+        padding: 20px 38px;
     }
+
+    div#formulario > h1 {
+        font-size: 2.2em;
+        padding: 15px 0 10px 0; 
+    }
+
+    div#formulario > p {
+        font-size: 1em;
+        text-align: center;
+        padding: 8px 0 15px 0;
+    }
+
+    div.form {
+        width: 315px;
+        height: 43px;
+        margin: 0 0 10px 0;
+    }
+
+    input#iusuario, input#isenha {
+        width: 275px;
+        height: 40px;
+    }
+
+    .buttons {
+        margin-top: -15px;
+    }
+    
+    .button1, .button2 {
+        font-size: 1.2em;
+        width: 315px;
+        margin: 0 0 8px 0;
+    }
+
 
 }
 
@@ -152,6 +188,7 @@ span {
     section#login {
         display: flex;
         flex-direction: row-reverse;
+        transition: .3s ease;
     }
 
     div#imagem {
@@ -159,7 +196,7 @@ span {
     }
 
     div#formulario {
-        padding-right: 22px;
+        padding-right: px;
     }
 
 }
