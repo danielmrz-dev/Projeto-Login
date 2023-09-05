@@ -19,7 +19,7 @@
 }
 
 body { 
-    background-color: var(--color05);
+    background-color: var(--color04);
     display: flex; 
     min-height: 100vh; 
     align-items: center; 
@@ -63,7 +63,7 @@ div#formulario > p {
 }
 
 div.form {
-    background-color: var(--color02);
+    background-color: var(--color01);
     width: 270px;
     height: 41px;
     border-radius: 8px;
@@ -106,22 +106,23 @@ span {
 
 .button1 {
     border: 1px solid var(--color02);
-    background-color: var(--color03);
+    background-color: var(--color02);
     color: white;
 }
 
 .button2 {
-    border: 1px solid var(--color03);
+    border: 1px solid var(--color02);
     background-color: white;
     font-size: 1em;
+    color: var(--color01);
 }
 
 .button1:hover {
-    background-color: #04565f;
+    background-color: #0992a1;
 }
 
 .button2:hover {
-    background-color: #04565f;
+    background-color: #0992a1;
     color: white;
 }
 
